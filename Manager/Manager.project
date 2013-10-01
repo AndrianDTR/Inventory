@@ -87,5 +87,8 @@
   </Settings>
   <VirtualDirectory Name="src">
     <File Name="main.cpp"/>
+    <File Name="ClassPrototypes.h"/>
+    <File Name="SkypeChatMainFrame.cpp"/>
+    <File Name="SkypeChatMainFrame.h"/>
   </VirtualDirectory>
 </CodeLite_Project>
