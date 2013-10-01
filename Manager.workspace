@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Manager" Database="./Manager.tags">
+  <Environment>
+    <![CDATA[]]>
+  </Environment>
+  <Project Name="InvertoryManager" Path="Manager/Manager.project" Active="Yes"/>
+  <Project Name="databaselayer" Path="databaselayer/databaselayer.project"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="InventoryManager" ConfigName="Debug"/>
+      <Project Name="databaselayer" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="InventoryManager" ConfigName="Release"/>
+      <Project Name="databaselayer" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

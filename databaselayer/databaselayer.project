@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="databaselayer" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="src/DatabaseErrorReporter.cpp"/>
+    <File Name="src/DatabaseLayer.cpp"/>
+    <File Name="src/DatabaseQueryParser.cpp"/>
+    <File Name="src/DatabaseResultSet.cpp"/>
+    <File Name="src/DatabaseStringConverter.cpp"/>
+    <File Name="src/FirebirdDatabaseLayer.cpp"/>
+    <File Name="src/FirebirdInterface.cpp"/>
+    <File Name="src/FirebirdParameter.cpp"/>
+    <File Name="src/FirebirdParameterCollection.cpp"/>
+    <File Name="src/FirebirdPreparedStatement.cpp"/>
+    <File Name="src/FirebirdPreparedStatementWrapper.cpp"/>
+    <File Name="src/FirebirdResultSet.cpp"/>
+    <File Name="src/FirebirdResultSetMetaData.cpp"/>
+    <File Name="src/MysqlDatabaseLayer.cpp"/>
+    <File Name="src/MysqlInterface.cpp"/>
+    <File Name="src/MysqlParameter.cpp"/>
+    <File Name="src/MysqlPreparedStatement.cpp"/>
+    <File Name="src/MysqlPreparedStatementParameter.cpp"/>
+    <File Name="src/MysqlPreparedStatementParameterCollection.cpp"/>
+    <File Name="src/MysqlPreparedStatementResultSet.cpp"/>
+    <File Name="src/MysqlPreparedStatementWrapper.cpp"/>
+    <File Name="src/MysqlResultSetMetaData.cpp"/>
+    <File Name="src/OdbcDatabaseLayer.cpp"/>
+    <File Name="src/OdbcInterface.cpp"/>
+    <File Name="src/OdbcParameter.cpp"/>
+    <File Name="src/OdbcPreparedStatement.cpp"/>
+    <File Name="src/OdbcResultSet.cpp"/>
+    <File Name="src/OdbcResultSetMetaData.cpp"/>
+    <File Name="src/OracleDatabaseLayer.cpp"/>
+    <File Name="src/OraclePreparedStatement.cpp"/>
+    <File Name="src/OraclePreparedStatementWrapper.cpp"/>
+    <File Name="src/OracleResultSet.cpp"/>
+    <File Name="src/OracleResultSetMetaData.cpp"/>
+    <File Name="src/OTLDatabaseLayer.cpp"/>
+    <File Name="src/OTLPreparedStatement.cpp"/>
+    <File Name="src/OTLResultSet.cpp"/>
+    <File Name="src/OTLResultSetMetaData.cpp"/>
+    <File Name="src/PostgresDatabaseLayer.cpp"/>
+    <File Name="src/PostgresInterface.cpp"/>
+    <File Name="src/PostgresParameter.cpp"/>
+    <File Name="src/PostgresPreparedStatement.cpp"/>
+    <File Name="src/PostgresPreparedStatementParameterCollection.cpp"/>
+    <File Name="src/PostgresPreparedStatementWrapper.cpp"/>
+    <File Name="src/PostgresResultSet.cpp"/>
+    <File Name="src/PostgresResultSetMetaData.cpp"/>
+    <File Name="src/PreparedStatement.cpp"/>
+    <File Name="src/SqliteDatabaseLayer.cpp"/>
+    <File Name="src/SqlitePreparedStatement.cpp"/>
+    <File Name="src/SqliteResultSet.cpp"/>
+    <File Name="src/SqliteResultSetMetaData.cpp"/>
+    <File Name="src/TdsColumnData.cpp"/>
+    <File Name="src/TdsDatabaseLayer.cpp"/>
+    <File Name="src/TdsPreparedStatement.cpp"/>
+    <File Name="src/TdsResultSet.cpp"/>
+    <File Name="src/TdsResultSetMetaData.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="include">
+    <File Name="include/DatabaseErrorCodes.h"/>
+    <File Name="include/DatabaseErrorReporter.h"/>
+    <File Name="include/DatabaseLayer.h"/>
+    <File Name="include/DatabaseLayerDef.h"/>
+    <File Name="include/DatabaseLayerException.h"/>
+    <File Name="include/DatabaseQueryParser.h"/>
+    <File Name="include/DatabaseResultSet.h"/>
+    <File Name="include/DatabaseStringConverter.h"/>
+    <File Name="include/FirebirdDatabaseLayer.h"/>
+    <File Name="include/FirebirdInterface.h"/>
+    <File Name="include/FirebirdParameter.h"/>
+    <File Name="include/FirebirdParameterCollection.h"/>
+    <File Name="include/FirebirdPreparedStatement.h"/>
+    <File Name="include/FirebirdPreparedStatementWrapper.h"/>
+    <File Name="include/FirebirdResultSet.h"/>
+    <File Name="include/FirebirdResultSetMetaData.h"/>
+    <File Name="include/MysqlDatabaseLayer.h"/>
+    <File Name="include/MysqlInterface.h"/>
+    <File Name="include/MysqlParameter.h"/>
+    <File Name="include/MysqlPreparedStatement.h"/>
+    <File Name="include/MysqlPreparedStatementParameter.h"/>
+    <File Name="include/MysqlPreparedStatementParameterCollection.h"/>
+    <File Name="include/MysqlPreparedStatementResultSet.h"/>
+    <File Name="include/MysqlPreparedStatementWrapper.h"/>
+    <File Name="include/MysqlResultSetMetaData.h"/>
+    <File Name="include/OdbcDatabaseLayer.h"/>
+    <File Name="include/OdbcInterface.h"/>
+    <File Name="include/OdbcParameter.h"/>
+    <File Name="include/OdbcPreparedStatement.h"/>
+    <File Name="include/OdbcResultSet.h"/>
+    <File Name="include/OdbcResultSetMetaData.h"/>
+    <File Name="include/OracleDatabaseLayer.h"/>
+    <File Name="include/OraclePreparedStatement.h"/>
+    <File Name="include/OraclePreparedStatementWrapper.h"/>
+    <File Name="include/OracleResultSet.h"/>
+    <File Name="include/OracleResultSetMetaData.h"/>
+    <File Name="include/OTLDatabaseLayer.h"/>
+    <File Name="include/OTLPreparedStatement.h"/>
+    <File Name="include/OTLResultSet.h"/>
+    <File Name="include/OTLResultSetMetaData.h"/>
+    <File Name="include/otlv4.h"/>
+    <File Name="include/PostgresDatabaseLayer.h"/>
+    <File Name="include/PostgresInterface.h"/>
+    <File Name="include/PostgresParameter.h"/>
+    <File Name="include/PostgresPreparedStatement.h"/>
+    <File Name="include/PostgresPreparedStatementParameterCollection.h"/>
+    <File Name="include/PostgresPreparedStatementWrapper.h"/>
+    <File Name="include/PostgresResultSet.h"/>
+    <File Name="include/PostgresResultSetMetaData.h"/>
+    <File Name="include/PreparedStatement.h"/>
+    <File Name="include/ResultSetMetaData.h"/>
+    <File Name="include/SqliteDatabaseLayer.h"/>
+    <File Name="include/SqlitePreparedStatement.h"/>
+    <File Name="include/SqliteResultSet.h"/>
+    <File Name="include/SqliteResultSetMetaData.h"/>
+    <File Name="include/TdsColumnData.h"/>
+    <File Name="include/TdsDatabaseLayer.h"/>
+    <File Name="include/TdsPreparedStatement.h"/>
+    <File Name="include/TdsResultSet.h"/>
+    <File Name="include/TdsResultSetMetaData.h"/>
+  </VirtualDirectory>
+  <Settings Type="Static Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" C_Options="-g" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+        <IncludePath Value="./sqlite3"/>
+        <IncludePath Value="../wxWidgets-2.8.12/include"/>
+        <IncludePath Value="../wxWidgets-2.8.12/lib"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="./Debug" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="./Release" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>
